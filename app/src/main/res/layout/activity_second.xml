@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".secondActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mobile Programming" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ari Susanto-20416255201007" />
+
+    <TextView
+        android:id="@+id/textbil1"
+        android:layout_width="251dp"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="Bilangan 1 :" />
+
+    <EditText
+        android:id="@+id/bil1"
+        android:layout_width="248dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textbil2"
+        android:layout_width="253dp"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="Bilangan 2 :" />
+
+    <EditText
+        android:id="@+id/bil2"
+        android:layout_width="246dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnTambah"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginEnd="10dp"
+            android:onClick="tambah"
+            android:text="+" />
+        <Button
+            android:id="@+id/btnKurang"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginEnd="10dp"
+            android:onClick="kurang"
+            android:text="-" />
+        <Button
+            android:id="@+id/btnKali"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginEnd="10dp"
+            android:onClick="kali"
+            android:text="x" />
+        <Button
+            android:id="@+id/btnBagi"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginEnd="10dp"
+            android:onClick="bagi"
+            android:text="/" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/hasil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:textAlignment="center"
+        android:textSize="40dp" />
+
+    <Button
+        android:id="@+id/btnReset"
+        android:layout_width="126dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="reset"
+        android:text="RESET" />
+
+
+</LinearLayout>
