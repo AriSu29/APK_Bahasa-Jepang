@@ -1,0 +1,2 @@
+# APLIKASI-BAHASA-JEPANG
+Android Version
