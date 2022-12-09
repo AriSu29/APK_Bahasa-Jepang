@@ -1,4 +1,4 @@
 # APLIKASI-BAHASA-JEPANG
-aplikasi versi android
+aplikasi versi android, masih dalam pengembangan
 <br>
-nb : perkembangan saat ini ditunda karena sibukkkkkkk
+nb : pengembangan saat ini ditunda karena sibukkkkkkk
