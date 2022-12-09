@@ -1,2 +1,2 @@
 # APLIKASI-BAHASA-JEPANG
-Android Version
+Masih dalam tahap pengembangan
